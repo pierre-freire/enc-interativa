@@ -1,14 +1,17 @@
 <template>
    <NavbarComponent />
+   <HeroSection />
 </template>
 
 <script>
 import NavbarComponent from './components/NavbarComponent.vue'
+import HeroSection from './components/HeroSection.vue'
 
 export default {
   name: 'App',
   components: {
     NavbarComponent,
+    HeroSection,
   }
 }
 </script>
@@ -33,6 +36,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: Brandon;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

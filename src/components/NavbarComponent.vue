@@ -15,10 +15,7 @@
 
 <script>
 export default {
-  name: 'NavbarComponent',
-  props: {
-    msg: String
-  }
+  name: 'NavbarComponent'
 }
 </script>
 
@@ -41,7 +38,7 @@ export default {
 }
 
 .list-item__link {
-  padding: 16px;
+  padding: 8px 16px;
   height: 100%;
   display: flex;
   align-items: center;
