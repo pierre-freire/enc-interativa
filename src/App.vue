@@ -3,6 +3,7 @@
    <HeroSection />
    <AwardsSection />
    <ParticipateSection />
+   <AwardsListSection />
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import NavbarComponent from './components/NavbarComponent.vue'
 import HeroSection from './components/HeroSection.vue'
 import AwardsSection from './components/AwardsSection.vue';
 import ParticipateSection from './components/ParticipateSection.vue'
+import AwardsListSection from './components/AwardsListSection.vue';
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     NavbarComponent,
     HeroSection,
     AwardsSection,
-    ParticipateSection
+    ParticipateSection,
+    AwardsListSection
   }
 }
 </script>
@@ -76,6 +79,10 @@ table {
 @font-face {
     font-family: 'Brandon';
     src: url('~@/assets/fonts/BrandonGrotesqueBlack.otf');
+}
+
+html {
+  background-color: #074A75;
 }
 
 #app {
