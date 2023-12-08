@@ -2,19 +2,22 @@
    <NavbarComponent />
    <HeroSection />
    <AwardsSection />
+   <ParticipateSection />
 </template>
 
 <script>
 import NavbarComponent from './components/NavbarComponent.vue'
 import HeroSection from './components/HeroSection.vue'
 import AwardsSection from './components/AwardsSection.vue';
+import ParticipateSection from './components/ParticipateSection.vue'
 
 export default {
   name: 'App',
   components: {
     NavbarComponent,
     HeroSection,
-    AwardsSection
+    AwardsSection,
+    ParticipateSection
   }
 }
 </script>

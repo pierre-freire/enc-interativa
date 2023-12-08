@@ -4,9 +4,7 @@
 			<img class="logo" src="../assets/logo-promo.png" alt="hellmans logo" />
 			<div class="hero-container__right-container">
 				<img class="logo unilever-logo" src="../assets/logo-unilever.png" alt="unilever logo" />
-				<div class="button-container">
-					<button class="button-container__button">PARTICIPE</button>
-				</div>
+				<LinkComponent label='PARTICIPE' />
 				<img class="logo products" src="../assets/produtos-home.png" alt="proodutos da promoção" />
 			</div>
 		</div>
@@ -14,8 +12,13 @@
 </template>
 
 <script>
+import LinkComponent from './LinkComponent.vue';
+
 	export default {
 		name: "HeroSection",
+		components: {
+			LinkComponent
+		}
 	};
 </script>
 
@@ -48,13 +51,13 @@
 	justify-self: end;
 }
 
-.button-container {
+.link-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.button-container__button {
+.link-container__button {
   color: #074A75;
 	background-color: #FACC1f;
 	font-family: Brandon;
