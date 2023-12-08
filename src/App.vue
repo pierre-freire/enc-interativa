@@ -1,17 +1,20 @@
 <template>
    <NavbarComponent />
    <HeroSection />
+   <AwardsSection />
 </template>
 
 <script>
 import NavbarComponent from './components/NavbarComponent.vue'
 import HeroSection from './components/HeroSection.vue'
+import AwardsSection from './components/AwardsSection.vue';
 
 export default {
   name: 'App',
   components: {
     NavbarComponent,
     HeroSection,
+    AwardsSection
   }
 }
 </script>
@@ -60,10 +63,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-html, body, #app {
-  height: 100%;
 }
 
 @font-face {
