@@ -5,6 +5,7 @@
    <ParticipateSection />
    <AwardsListSection />
    <VideoSection />
+   <ProductsSection />
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import AwardsSection from './components/AwardsSection.vue';
 import ParticipateSection from './components/ParticipateSection.vue'
 import AwardsListSection from './components/AwardsListSection.vue';
 import VideoSection from './components/VideoSection.vue';
+import ProductsSection from './components/ProductsSection.vue'
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     AwardsSection,
     ParticipateSection,
     AwardsListSection,
-    VideoSection
+    VideoSection,
+    ProductsSection
   }
 }
 </script>
