@@ -6,6 +6,7 @@
    <AwardsListSection />
    <VideoSection />
    <ProductsSection />
+   <BuySection />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import ParticipateSection from './components/ParticipateSection.vue'
 import AwardsListSection from './components/AwardsListSection.vue';
 import VideoSection from './components/VideoSection.vue';
 import ProductsSection from './components/ProductsSection.vue'
+import BuySection from './components/BuySection.vue'
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     ParticipateSection,
     AwardsListSection,
     VideoSection,
-    ProductsSection
+    ProductsSection,
+    BuySection
   }
 }
 </script>
@@ -87,9 +90,6 @@ table {
     src: url('~@/assets/fonts/BrandonGrotesqueBlack.otf');
 }
 
-html {
-  background-color: #074A75;
-}
 
 #app {
   text-align: center;
