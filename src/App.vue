@@ -7,6 +7,7 @@
    <VideoSection />
    <ProductsSection />
    <BuySection />
+   <FooterComponent />
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import AwardsListSection from './components/AwardsListSection.vue';
 import VideoSection from './components/VideoSection.vue';
 import ProductsSection from './components/ProductsSection.vue'
 import BuySection from './components/BuySection.vue'
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     AwardsListSection,
     VideoSection,
     ProductsSection,
-    BuySection
+    BuySection,
+    FooterComponent
   }
 }
 </script>
