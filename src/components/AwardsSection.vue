@@ -1,6 +1,6 @@
 <template>
   <section class="awards">
-    <img src="../assets/premios.png" />
+    <img class="awards-img" src="../assets/premios.png" />
   </section>
 </template>
 
@@ -18,5 +18,9 @@ export default {
   border: 4px solid #074A75;
   background-color: #122641;
   box-shadow: 0px 0px 0px 16px #122641;
+}
+
+.awards-img {
+  max-width: 100%;
 }
 </style>

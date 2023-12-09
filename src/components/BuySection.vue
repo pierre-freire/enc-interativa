@@ -39,6 +39,7 @@ export default {
 .buy-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
   padding: 24px;
 }

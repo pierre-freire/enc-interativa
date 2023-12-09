@@ -24,7 +24,7 @@ export default {
 }
 
 .title {
-  font-size: 48px;
+  font-size: 24px;
   font-family: Latino;
   border-bottom: 4px solid white;
   display: inline-block;
@@ -40,5 +40,11 @@ export default {
   margin-top: 36px;
   margin-bottom: -59px;
   width: 80%;
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 48px;
+  }
 }
 </style>

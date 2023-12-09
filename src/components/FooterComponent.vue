@@ -59,6 +59,7 @@ export default {
   justify-content: center;
   margin: 24px 0;
   font-size: 20px;
+  flex-wrap: wrap;
 }
 
 .doubts-rules > a {
@@ -68,7 +69,8 @@ export default {
 .social-networks {
   display: flex;
   justify-content: space-around;
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   margin: 24px 0;
 }
 

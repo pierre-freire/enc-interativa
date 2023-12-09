@@ -32,23 +32,21 @@ import LinkComponent from './LinkComponent.vue';
 	box-sizing: border-box;
 }
 
-.hero-container {
-	max-width: 1600px;
-	display: flex;
-}
-
-.logo {
-	object-fit: none;
-}
-
 .hero-container__right-container {
 	display: grid;
 	grid-template-rows: 90px 180px 1fr;
 }
 
+.logo {
+	max-width: 100%;
+	align-self: end;
+}
+
 .unilever-logo {
 	width: 90px;
 	justify-self: end;
+	max-height: 100%;
+	object-fit: contain;
 }
 
 .link-container {
@@ -71,5 +69,14 @@ import LinkComponent from './LinkComponent.vue';
 
 .products {
 	align-self: end;
+	max-width: 100%;
+}
+
+@media (min-width: 640px) {
+	.hero-container {
+		max-width: 1600px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}	
 }
 </style>

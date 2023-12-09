@@ -4,7 +4,7 @@
       CADA HORA HDA NBA FICA AINDA MAIS SABOROSA COM HELLMANN'S<br />
       ASSISTA AO FILME ABAIXO:
     </h2>
-    <iframe width="80%" height="480" src="https://www.youtube.com/embed/KAIR1_wOJvg?si=YgG-Y8LUOX-DKOMD"></iframe>
+    <iframe width="100%" height="480" src="https://www.youtube.com/embed/KAIR1_wOJvg?si=YgG-Y8LUOX-DKOMD"></iframe>
   </section>
 </template>
 

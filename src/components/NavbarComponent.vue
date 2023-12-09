@@ -1,6 +1,9 @@
 <template>
   <nav class="navbar">
-    <ul class="list">
+    <button class="mobile-menu" :class="{ open: menuOpen }" @click="changeMenuOpen(!menuOpen)">
+      <img  src="../assets/menu-icon.png" />
+    </button>
+    <ul class="list" :class="{ open: menuOpen }">
       <li class="list-item"><a class="list-item__link">HOME</a></li>
       <li class="list-item"><a class="list-item__link">COMO<br/>PARTICIPAR</a></li>
       <li class="list-item"><a class="list-item__link">PRÊMIOS</a></li>
@@ -14,22 +17,61 @@
 </template>
 
 <script>
+import { ref } from 'vue'
+
 export default {
-  name: 'NavbarComponent'
+  name: 'NavbarComponent',
+  setup() {
+    const menuOpen = ref(false)
+
+    function changeMenuOpen(param) {
+      menuOpen.value = param
+    }
+
+    return{
+      menuOpen,
+      changeMenuOpen
+    }
+  }
 }
 </script>
 
 <style scoped>
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   font-family: Brandon;
   background-color: #FACC1f;
+  position: relative;
+}
+
+.mobile-menu {
+  background: none;
+  border: none;
+  transform: rotate(0);
+  transition: all 0.5s ease;
+}
+
+.mobile-menu.open {
+  transform: rotate(90deg);
 }
 
 .list {
   display: flex;
-  max-width: 1600px;
+  transform: scaleY(0);
+  transform-origin: top;
+  position: absolute;
+  flex-direction: column;
+  top: calc(100% - 1px);
+  width: 100%;
+  background-color: #FACC1f;
+  transition: all 0.5s ease;
+  align-items: center;
+}
+
+.list.open {
+  transform: scaleY(1);
+  display: flex;
 }
 
 .list-item {
@@ -52,5 +94,22 @@ export default {
   color: #FACC1f;
   background-color: #074A75;
   cursor: pointer;
+}
+
+@media (min-width: 1280px) {
+  .mobile-menu {
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
+  }
+  .list {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1600px;
+    position: initial;
+    background: none;
+    transform: scaleY(1);
+  }
 }
 </style>

@@ -9,9 +9,24 @@
     </ul>
 
     <ul class="galery">
-      <li><img class="galery-item" :class="{ active: isActive('plates') }" src="../assets/galeria-pratos.png" /></li>
-      <li><img class="galery-item" :class="{ active: isActive('bowls') }" src="../assets/galeria-bowls.png" /></li>
-      <li><img class="galery-item" :class="{ active: isActive('board') }" src="../assets/galeria-tabua.png" /></li>
+      <li>
+        <picture class="galery-item" :class="{ active: isActive('plates') }">
+          <source srcset="../assets/galeria-pratos.png" media="(min-width: 640px)"/>
+          <img srcset="../assets/galeria-pratos-mob.png" class="awards-img" />
+        </picture>
+      </li>
+      <li>
+        <picture class="galery-item" :class="{ active: isActive('bowls') }">
+          <source srcset="../assets/galeria-bowls.png" media="(min-width: 640px)"/>
+          <img src="../assets/galeria-bowls-mob.png" class="awards-img" />
+        </picture>
+      </li>
+      <li>
+        <picture class="galery-item" :class="{ active: isActive('board') }">
+          <source srcset="../assets/galeria-tabua.png" media="(min-width: 640px)"/>
+          <img src="../assets/galeria-tabua-mob.png" class="awards-img" />
+        </picture>
+      </li>
     </ul>
   </section>
 </template>
@@ -72,7 +87,7 @@ export default {
 }
 
 .selector-button {
-  padding: 4px 24px;
+  padding: 4px 8px;
   border-radius: 36px;
   border: none;
   color: white;
@@ -89,9 +104,20 @@ export default {
 
 .galery-item {
   display: none;
+  max-width: 100%;
 }
 
 .galery-item.active {
   display: initial;
+}
+
+.awards-img {
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .selector-button {
+  padding: 4px 24px;
+}
 }
 </style>

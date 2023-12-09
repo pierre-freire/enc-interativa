@@ -8,11 +8,11 @@
       <img src="../assets/passo-4.png" />
     </div>
     <div>
-      <img src="../assets/extra-1.png" />
-      <img src="../assets/extra-2.png" />
-      <img src="../assets/extra-3.png" />
+      <img class="img" src="../assets/extra-1.png" />
+      <img class="img" src="../assets/extra-2.png" />
+      <img class="img" src="../assets/extra-3.png" />
     </div>
-    <img src="../assets/extra-4.png" />
+    <img class="img" src="../assets/extra-4.png" />
     <LinkComponent label='PARTICIPE' />
   </section>
 </template>
@@ -47,7 +47,13 @@ export default {
 
 .phases {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 32px;
   margin: 36px 0;
+}
+
+.img {
+  max-width: 100%;
 }
 </style>
