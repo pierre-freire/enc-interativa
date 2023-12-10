@@ -9,20 +9,20 @@
     </ul>
 
     <ul class="galery">
-      <li>
-        <picture class="galery-item" :class="{ active: isActive('plates') }">
+      <li class="galery-item" :class="{ active: isActive('plates') }">
+        <picture>
           <source srcset="../assets/galeria-pratos.png" media="(min-width: 640px)"/>
           <img srcset="../assets/galeria-pratos-mob.png" class="awards-img" alt="imagem dos pratos" />
         </picture>
       </li>
-      <li>
-        <picture class="galery-item" :class="{ active: isActive('bowls') }">
+      <li class="galery-item" :class="{ active: isActive('bowls') }">
+        <picture>
           <source srcset="../assets/galeria-bowls.png" media="(min-width: 640px)"/>
           <img src="../assets/galeria-bowls-mob.png" class="awards-img" alt="imagem dos bowls" />
         </picture>
       </li>
-      <li>
-        <picture class="galery-item" :class="{ active: isActive('board') }">
+      <li class="galery-item" :class="{ active: isActive('board') }">
+        <picture>
           <source srcset="../assets/galeria-tabua.png" media="(min-width: 640px)"/>
           <img src="../assets/galeria-tabua-mob.png" class="awards-img" alt="imagem da tábua" />
         </picture>
@@ -102,13 +102,18 @@ export default {
   background-color: #facc1f;
 }
 
+.galery {
+  display: flex;
+  justify-content: center;
+}
+
 .galery-item {
-  display: none;
-  max-width: 100%;
+  transition: max-width 0.4s ease;
+  max-width: 00%;
 }
 
 .galery-item.active {
-  display: initial;
+  max-width: 100%;
 }
 
 .awards-img {

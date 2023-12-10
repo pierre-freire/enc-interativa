@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
-    <button class="mobile-menu" :class="{ open: menuOpen }" @click="changeMenuOpen(!menuOpen)">
-      <img  src="../assets/menu-icon.png" />
+    <button class="mobile-menu" :class="{ open: menuOpen }" @click="changeMenuOpen(!menuOpen)" aria-label="Menu">
+      <img  src="../assets/menu-icon.png" alt="mobile menu icon" />
     </button>
     <ul class="list" :class="{ open: menuOpen }">
       <li class="list-item"><a class="list-item__link" href="/">HOME</a></li>
