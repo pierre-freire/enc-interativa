@@ -33,8 +33,19 @@ export default {
     ProductsSection,
     BuySection,
     FooterComponent
+  },
+  head: {
+    title:  {
+      inner: 'My title',
+      separator: '-',
+      complement: 'My Complement'
+    },
+    meta: [
+      { name: 'description', content: 'My description', id: 'desc' }
+    ]
   }
 }
+
 </script>
 
 <style>

@@ -24,7 +24,7 @@ import LinkComponent from './LinkComponent.vue';
 
 <style scoped>
 .hero {
-	padding: 24px;
+	padding: 24px 24px 0;
 	background-image: url('../assets/bg-azul.jpg');
 	display: flex;
 	justify-content: center;

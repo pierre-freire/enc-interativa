@@ -4,14 +4,14 @@
       <img  src="../assets/menu-icon.png" />
     </button>
     <ul class="list" :class="{ open: menuOpen }">
-      <li class="list-item"><a class="list-item__link">HOME</a></li>
-      <li class="list-item"><a class="list-item__link">COMO<br/>PARTICIPAR</a></li>
-      <li class="list-item"><a class="list-item__link">PRÊMIOS</a></li>
-      <li class="list-item"><a class="list-item__link">PRODUTOS<br/>PARTICIPANTES</a></li>
-      <li class="list-item"><a class="list-item__link">RECEITAS</a></li>
-      <li class="list-item"><a class="list-item__link">PÍLULAS NBA</a></li>
-      <li class="list-item"><a class="list-item__link">GANHADORES</a></li>
-      <li class="list-item"><a class="list-item__link">OLÁ, ANA</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">HOME</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">COMO<br/>PARTICIPAR</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">PRÊMIOS</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">PRODUTOS<br/>PARTICIPANTES</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">RECEITAS</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">PÍLULAS NBA</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">GANHADORES</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">OLÁ, ANA</a></li>
     </ul>
   </nav>
 </template>
@@ -88,6 +88,7 @@ export default {
   color: #074A75;
   font-size: 20px;
   text-wrap: nowrap;
+  text-decoration: none;
 }
 
 .list-item__link:hover {

@@ -4,12 +4,12 @@
 
     <ul class="buy-list">
       <li class="buy-option">
-        <img class="buy-option__img" src="../assets/pda.png" />
-        <a class="link">GPA</a>
+        <img class="buy-option__img" src="../assets/pda.png" alt="logo do pão de açucar" />
+        <a class="link" href="/">GPA</a>
       </li>
       <li class="buy-option">
-        <img class="buy-option__img" src="../assets/carrefour.png" />
-        <a class="link">CARREFOUR</a>
+        <img class="buy-option__img" src="../assets/carrefour.png" alt="logo do carrefour" />
+        <a class="link" href="/">CARREFOUR</a>
       </li>
     </ul>
   </section>
@@ -66,5 +66,6 @@ export default {
 	border: none;
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
   min-width: 80px;
+  text-decoration: none;
 }
 </style>

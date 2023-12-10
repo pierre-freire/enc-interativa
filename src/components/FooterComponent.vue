@@ -1,17 +1,17 @@
 <template>
   <footer class="footer">
     <div class="laco-container">
-      <img class="laco-logo" src="../assets/laco.png" />
+      <img class="laco-logo" src="../assets/laco.png" alt="logo da laco" />
     </div>
     <div class="doubts-rules">
-      <a class="doubts">DÚVIDAS</a>
-      <a>REGULAMENTO</a>
+      <a class="doubts" href="/">DÚVIDAS</a>
+      <a class="rules" href="/">REGULAMENTO</a>
     </div>
     <ul class="social-networks">
-      <li><img src="../assets/redes-twitter.png" /></li>
-      <li><img src="../assets/redes-facebook.png" /></li>
-      <li><img src="../assets/redes-instagram.png" /></li>
-      <li><img src="../assets/redes-yt.png" /></li>
+      <li><img src="../assets/redes-twitter.png" alt="logo do twitter" /></li>
+      <li><img src="../assets/redes-facebook.png" alt="logo do facebook" /></li>
+      <li><img src="../assets/redes-instagram.png" alt="logo do instagram" /></li>
+      <li><img src="../assets/redes-yt.png" alt="logo do youtube" /></li>
     </ul>
     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id dolor id turpis ultrices pharetra ac quis ligula. Mauris ut ante vel erat congue suscipit. In in aliquet enim, vitae tincidunt velit. Donec pellentesque commodo tincidunt. Pellentesque ut magna eget leo semper condimentum et volutpat nisi. Sed suscipit dui in nisl pretium, vitae egestas metus rhoncus. In</p>
     <img src="../assets/logo-unilever.png" alt="">
@@ -64,6 +64,8 @@ export default {
 
 .doubts-rules > a {
   cursor: pointer ;
+  text-decoration: none;
+  color: white;
 }
 
 .social-networks {

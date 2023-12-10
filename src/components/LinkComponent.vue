@@ -1,6 +1,6 @@
 <template>
   <div class="link-container">
-    <a class="link-container__button">{{label}}</a>
+    <a class="link-container__button" href="/">{{label}}</a>
   </div>
 </template>
 
@@ -31,5 +31,6 @@ export default {
 	cursor: pointer;
 	border: none;
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+	text-decoration: none;
 }
 </style>
