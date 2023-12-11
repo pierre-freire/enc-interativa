@@ -82,6 +82,7 @@ export default {
 .list-item {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
 .list-item__link {
