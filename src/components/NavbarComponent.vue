@@ -11,7 +11,7 @@
       <li class="list-item"><a class="list-item__link" href="/">RECEITAS</a></li>
       <li class="list-item"><a class="list-item__link" href="/">PÍLULAS NBA</a></li>
       <li class="list-item"><a class="list-item__link" href="/">GANHADORES</a></li>
-      <li class="list-item"><a class="list-item__link" href="/">OLÁ, ANA</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">OLÁ, ANA<span class="triangle"></span></a></li>
     </ul>
   </nav>
 </template>
@@ -101,6 +101,21 @@ export default {
   color: #FACC1f;
   background-color: #074A75;
   cursor: pointer;
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  margin-left: 8px;
+  border-style: solid;
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent #074A75 transparent;
+  transform: rotate(0deg);
+}
+
+.list-item__link:hover .triangle {
+  border-color: transparent transparent #FACC1f transparent;
+  transform: rotate(180deg);
 }
 
 @media (min-width: 1280px) {
