@@ -1,7 +1,10 @@
 <template>
   <section class="awards-container">
     <div class='awards'>
-      <img class="awards-img" src="../assets/premios.webp" alt="imagem dos prêmios" />
+      <picture>
+        <source srcset="../assets/premios.webp" media="(min-width: 640px)"/>
+        <img class="awards-img" src="../assets/premios-mob.webp" alt="imagem dos prêmios"/>
+      </picture>
     </div>
   </section>
 </template>
