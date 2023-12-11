@@ -38,7 +38,7 @@ export default {
 
 .title {
   color: white;
-  font-size: 36px;
+  font-size: var(--normal-title);
   font-family: Latino;
   border-bottom: 3px solid;
   display: inline-flex;

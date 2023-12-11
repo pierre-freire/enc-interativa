@@ -59,7 +59,7 @@ import LinkComponent from './LinkComponent.vue';
   color: #074A75;
 	background-color: #FACC1f;
 	font-family: Brandon;
-	font-size: 40px;
+	font-size: var(--normal-title);
 	padding: 16px 40px;
 	border-radius: 60px;
 	cursor: pointer;

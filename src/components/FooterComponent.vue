@@ -58,7 +58,7 @@ export default {
   gap: 48px;
   justify-content: center;
   margin: 24px 0;
-  font-size: 20px;
+  font-size: var(--big-text);
   flex-wrap: wrap;
 }
 

@@ -104,9 +104,25 @@ table {
     src: url('~@/assets/fonts/BrandonGrotesqueBlack.otf');
 }
 
+:root {
+  --big-text: 16px;
+  --normal-text: 14px;
+  --big-title: 30px;
+  --normal-title: 24px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --big-text: 20px;
+    --normal-text: 16px;
+    --big-title: 44px;
+    --normal-title: 36px;
+  }
+}
 
 #app {
   text-align: center;
   background-color: #074A75;
 }
+
 </style>

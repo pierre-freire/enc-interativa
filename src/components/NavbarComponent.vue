@@ -91,7 +91,7 @@ export default {
   align-items: center;
   box-sizing: border-box;
   color: #074A75;
-  font-size: 20px;
+  font-size: var(--big-text);
   text-wrap: nowrap;
   text-decoration: none;
 }

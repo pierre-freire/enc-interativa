@@ -29,7 +29,7 @@ export default {
 
 .title {
   color: white;
-  font-size: 36px;
+  font-size: var(--normal-title);
   font-family: Latino;
   border-bottom: 4px solid white;
   display: inline-block ;
@@ -59,7 +59,7 @@ export default {
   color: #074A75;
 	background-color: #FACC1f;
 	font-family: Brandon;
-	font-size: 16px;
+	font-size: var(--normal-text);
 	padding: 16px 40px;
 	border-radius: 60px;
 	cursor: pointer;

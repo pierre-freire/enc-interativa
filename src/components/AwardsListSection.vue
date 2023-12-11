@@ -71,7 +71,7 @@ export default {
 }
 
 .title {
-  font-size: 36px;
+  font-size: var(--normal-title);
   color: #facc1f;
   font-family: Brandon;
   margin-bottom: 24px;
@@ -94,7 +94,7 @@ export default {
   background: none;
   cursor: pointer;
   font-family: Brandon;
-  font-size: 16px;
+  font-size: var(--normal-text);
 }
 
 .selector-button.active {

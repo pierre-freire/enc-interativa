@@ -42,7 +42,7 @@ export default {
 }
 
 .title {
-  font-size: 24px;
+  font-size: var(--big-title);
   font-family: Latino;
   border-bottom: 4px solid white;
   display: inline-block;
@@ -51,18 +51,12 @@ export default {
 }
 
 .description {
-  font-size: 36px;
+  font-size: var(--normal-title);
 }
 
 .products-img {
   margin-top: 36px;
   margin-bottom: -59px;
   width: 80%;
-}
-
-@media (min-width: 640px) {
-  .title {
-    font-size: 48px;
-  }
 }
 </style>

@@ -9,7 +9,7 @@
 </template>
 
 /*
-<iframe width="560" height="315"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315"  loading='lazy' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 */
 
 <script>
@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .video {
   color: white;
-  font-size: 36px;
+  font-size: var(--normal-title);
   padding: 48px 16px;
 }
 
