@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <button class="mobile-menu" :class="{ open: menuOpen }" @click="changeMenuOpen(!menuOpen)" aria-label="Menu">
-      <img  src="../assets/menu-icon.png" alt="mobile menu icon" />
+      <img class="mobile-menu--icon" src="../assets/menu-icon.webp" alt="mobile menu icon" />
     </button>
     <ul class="list" :class="{ open: menuOpen }">
       <li class="list-item"><a class="list-item__link" href="/">HOME</a></li>
@@ -50,6 +50,11 @@ export default {
   border: none;
   transform: rotate(0);
   transition: all 0.5s ease;
+}
+
+.mobile-menu--icon {
+  width: 48px;
+  height: 48px;
 }
 
 .mobile-menu.open {

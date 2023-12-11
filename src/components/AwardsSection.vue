@@ -1,7 +1,7 @@
 <template>
   <section class="awards-container">
     <div class='awards'>
-      <img class="awards-img" src="../assets/premios.png" alt="imagem dos prêmios" />
+      <img class="awards-img" src="../assets/premios.webp" alt="imagem dos prêmios" />
     </div>
   </section>
 </template>
@@ -35,7 +35,7 @@ export default {
   left: 0;
   right: 0;
   height: 60px;
-  background-image: url('../assets/bg-azul.jpg');
+  background-image: url('../assets/bg-azul.webp');
 }
 
 .awards-img {

@@ -3,7 +3,7 @@
     <div class="products">
       <h2 class="title">PRODUTOS PARTICIPANTES</h2>
       <p class="description">TODOS OS SQUEEZES DA LINHA HELLMANN'S</p>
-      <img class="products-img" src="../assets/produtos-home.png" alt="proodutos da promoção" />
+      <img class="products-img" src="../assets/produtos-home.webp" alt="proodutos da promoção" loading="lazy" />
     </div>
   </section>
 </template>
@@ -38,7 +38,7 @@ export default {
   left: 0;
   right: 0;
   height: 60px;
-  background-image: url('../assets/bg-azul.jpg');
+  background-image: url('../assets/bg-azul.webp');
 }
 
 .title {

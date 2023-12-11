@@ -1,11 +1,11 @@
 <template>
 	<section class="hero">
 		<div class="hero-container">
-			<img class="logo" src="../assets/logo-promo.png" alt="hellmans logo" />
+			<img class="logo promo" src="../assets/logo-promo.webp" alt="hellmans logo" />
 			<div class="hero-container__right-container">
-				<img class="logo unilever-logo" src="../assets/logo-unilever.png" alt="unilever logo" />
+				<img class="logo unilever-logo" src="../assets/logo-unilever.webp" alt="unilever logo" />
 				<LinkComponent label='PARTICIPE' />
-				<img class="logo products" src="../assets/produtos-home.png" alt="proodutos da promoção" />
+				<img class="logo products" src="../assets/produtos-home.webp" alt="proodutos da promoção" />
 			</div>
 		</div>
 	</section>
@@ -25,7 +25,7 @@ import LinkComponent from './LinkComponent.vue';
 <style scoped>
 .hero {
 	padding: 24px 24px 0;
-	background-image: url('../assets/bg-azul.jpg');
+	background-image: url('../assets/bg-azul.webp');
 	display: flex;
 	justify-content: center;
 	width: 100%;

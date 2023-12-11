@@ -1,20 +1,20 @@
 <template>
   <footer class="footer">
     <div class="laco-container">
-      <img class="laco-logo" src="../assets/laco.png" alt="logo da laco" />
+      <img class="laco-logo" src="../assets/laco.webp" alt="logo da laco" loading="lazy" />
     </div>
     <div class="doubts-rules">
       <a class="doubts" href="/">DÚVIDAS</a>
       <a class="rules" href="/">REGULAMENTO</a>
     </div>
     <ul class="social-networks">
-      <li><img src="../assets/redes-twitter.png" alt="logo do twitter" /></li>
-      <li><img src="../assets/redes-facebook.png" alt="logo do facebook" /></li>
-      <li><img src="../assets/redes-instagram.png" alt="logo do instagram" /></li>
-      <li><img src="../assets/redes-yt.png" alt="logo do youtube" /></li>
+      <li><img src="../assets/redes-twitter.webp" alt="logo do twitter" loading="lazy" /></li>
+      <li><img src="../assets/redes-facebook.webp" alt="logo do facebook" loading="lazy" /></li>
+      <li><img src="../assets/redes-instagram.webp" alt="logo do instagram" loading="lazy" /></li>
+      <li><img src="../assets/redes-yt.webp" alt="logo do youtube" loading="lazy" /></li>
     </ul>
     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id dolor id turpis ultrices pharetra ac quis ligula. Mauris ut ante vel erat congue suscipit. In in aliquet enim, vitae tincidunt velit. Donec pellentesque commodo tincidunt. Pellentesque ut magna eget leo semper condimentum et volutpat nisi. Sed suscipit dui in nisl pretium, vitae egestas metus rhoncus. In</p>
-    <img src="../assets/logo-unilever.png" alt="">
+    <img src="../assets/logo-unilever.webp" alt="logo unilever" loading="lazy">
   </footer>
 </template>
 

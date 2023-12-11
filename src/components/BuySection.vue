@@ -4,11 +4,11 @@
 
     <ul class="buy-list">
       <li class="buy-option">
-        <img class="buy-option__img" src="../assets/pda.png" alt="logo do pão de açucar" />
+        <img class="buy-option__img" src="../assets/pda.webp" alt="logo do pão de açucar" loading="lazy" />
         <a class="link" href="/">GPA</a>
       </li>
       <li class="buy-option">
-        <img class="buy-option__img" src="../assets/carrefour.png" alt="logo do carrefour" />
+        <img class="buy-option__img" src="../assets/carrefour.webp" alt="logo do carrefour" loading="lazy" />
         <a class="link" href="/">CARREFOUR</a>
       </li>
     </ul>
@@ -24,7 +24,7 @@ export default {
 <style scoped>
 .buy {
   padding: 24px;
-  background-image: url('../assets//bg-azul.jpg');
+  background-image: url('../assets//bg-azul.webp');
 }
 
 .title {

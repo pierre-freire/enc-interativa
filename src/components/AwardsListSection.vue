@@ -11,20 +11,20 @@
     <ul class="galery">
       <li class="galery-item" :class="{ active: isActive('plates') }">
         <picture>
-          <source srcset="../assets/galeria-pratos.png" media="(min-width: 640px)"/>
-          <img srcset="../assets/galeria-pratos-mob.png" class="awards-img" alt="imagem dos pratos" />
+          <source srcset="../assets/galeria-pratos.webp" media="(min-width: 640px)"/>
+          <img srcset="../assets/galeria-pratos-mob.webp" class="awards-img" alt="imagem dos pratos" loading="lazy" />
         </picture>
       </li>
       <li class="galery-item" :class="{ active: isActive('bowls') }">
         <picture>
-          <source srcset="../assets/galeria-bowls.png" media="(min-width: 640px)"/>
-          <img src="../assets/galeria-bowls-mob.png" class="awards-img" alt="imagem dos bowls" />
+          <source srcset="../assets/galeria-bowls.webp" media="(min-width: 640px)"/>
+          <img src="../assets/galeria-bowls-mob.webp" class="awards-img" alt="imagem dos bowls" loading="lazy" />
         </picture>
       </li>
       <li class="galery-item" :class="{ active: isActive('board') }">
         <picture>
-          <source srcset="../assets/galeria-tabua.png" media="(min-width: 640px)"/>
-          <img src="../assets/galeria-tabua-mob.png" class="awards-img" alt="imagem da tábua" />
+          <source srcset="../assets/galeria-tabua.webp" media="(min-width: 640px)"/>
+          <img src="../assets/galeria-tabua-mob.webp" class="awards-img" alt="imagem da tábua" loading="lazy" />
         </picture>
       </li>
     </ul>
