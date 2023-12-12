@@ -1,24 +1,27 @@
-# enc
+# ENC Interativa - teste
+
+## Para visulizar o teste em produção [[acesse este link](https://enc-interativa-teste.netlify.app/)]
 
 ## Project setup
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar e rodar em dev
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Compilar e minificar para produção
+
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### Lints e correção de arquivos
+
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
