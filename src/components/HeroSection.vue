@@ -1,11 +1,11 @@
 <template>
-	<section class="hero">
+	<section class="hero" id="hero">
 		<div class="hero-container">
-			<img class="logo promo" src="../assets/logo-promo.webp" alt="hellmans logo" />
+			<img class="pote de hellman's que representa a promoão " src="../assets/logo-promo.webp" alt="hellmans logo" />
 			<div class="hero-container__right-container">
-				<img class="logo unilever-logo" src="../assets/logo-unilever.webp" alt="unilever logo" />
+				<img class="logo unilever-logo" src="../assets/logo-unilever.webp" alt="logo da unilever" />
 				<LinkComponent label='PARTICIPE' />
-				<img class="logo products" src="../assets/produtos-home.webp" alt="proodutos da promoção" />
+				<img class="logo products" src="../assets/produtos-home.webp" alt="pratos e bowls co escudos dos times e tábua com desenho de quadra de basquete" />
 			</div>
 		</div>
 	</section>

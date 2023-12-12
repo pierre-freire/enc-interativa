@@ -1,9 +1,9 @@
 <template>
-  <section class="products-container">
+  <section class="products-container" id="products">
     <div class="products">
       <h2 class="title">PRODUTOS PARTICIPANTES</h2>
       <p class="description">TODOS OS SQUEEZES DA LINHA HELLMANN'S</p>
-      <img class="products-img" src="../assets/produtos-home.webp" alt="proodutos da promoção" loading="lazy" />
+      <img class="products-img" src="../assets/produtos-home.webp" alt="potes de hellmans referentes a promoção" loading="lazy" />
     </div>
   </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <section class="awards-list">
+  <section class="awards-list" id="awards_list">
     <h2 class="title">COMPRE, JUNTE E TROQUE</h2>
 
     <ul class="selector-container">
@@ -12,19 +12,19 @@
       <li class="galery-item" :class="{ active: isActive('plates') }">
         <picture>
           <source srcset="../assets/galeria-pratos.webp" media="(min-width: 640px)"/>
-          <img srcset="../assets/galeria-pratos-mob.webp" class="awards-img" alt="imagem dos pratos" loading="lazy" />
+          <img srcset="../assets/galeria-pratos-mob.webp" class="awards-img" alt="pratos com escudo dos times de basquete participantes" loading="lazy" />
         </picture>
       </li>
       <li class="galery-item" :class="{ active: isActive('bowls') }">
         <picture>
           <source srcset="../assets/galeria-bowls.webp" media="(min-width: 640px)"/>
-          <img src="../assets/galeria-bowls-mob.webp" class="awards-img" alt="imagem dos bowls" loading="lazy" />
+          <img src="../assets/galeria-bowls-mob.webp" class="awards-img" alt="bowls com escudo dos times de basquete participantes" loading="lazy" />
         </picture>
       </li>
       <li class="galery-item" :class="{ active: isActive('board') }">
         <picture>
           <source srcset="../assets/galeria-tabua.webp" media="(min-width: 640px)"/>
-          <img src="../assets/galeria-tabua-mob.webp" class="awards-img" alt="imagem da tábua" loading="lazy" />
+          <img src="../assets/galeria-tabua-mob.webp" class="awards-img" alt="tábua de carne com deseno de quadra de basquete" loading="lazy" />
         </picture>
       </li>
     </ul>

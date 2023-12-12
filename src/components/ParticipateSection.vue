@@ -1,5 +1,5 @@
 <template>
-  <section class="participate">
+  <section class="participate" id="participate">
     <h2 class="title">COMO PARTICIPAR</h2>
     <div class="phases">
       <img src="../assets/passo-1.webp" alt="passo 1 para participar" loading="lazy" />
@@ -8,9 +8,9 @@
       <img src="../assets/passo-4.webp" alt="passo 4 para participar" loading="lazy" />
     </div>
     <div>
-      <img class="img" src="../assets/extra-1.webp" alt="prêmio para 1 cesta" loading="lazy" />
-      <img class="img" src="../assets/extra-2.webp" alt="prêmio para 3 cestas" loading="lazy" />
-      <img class="img" src="../assets/extra-3.webp" alt="prêmio para 2 cestas extras" loading="lazy" />
+      <img class="img" src="../assets/extra-1.webp" alt="pote de hellmans, prêmio para 1 cesta" loading="lazy" />
+      <img class="img" src="../assets/extra-2.webp" alt="pote de hellmans supreme, prêmio para 3 cestas" loading="lazy" />
+      <img class="img" src="../assets/extra-3.webp" alt="pacotes de ruffles, prêmio para 2 cestas extras" loading="lazy" />
     </div>
     <img class="img" src="../assets/extra-4.webp" alt="prêmio para 1 cesta em sp capital" loading="lazy" />
     <LinkComponent label='PARTICIPE' />

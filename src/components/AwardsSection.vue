@@ -3,7 +3,7 @@
     <div class='awards'>
       <picture>
         <source srcset="../assets/premios.webp" media="(min-width: 640px)"/>
-        <img class="awards-img" src="../assets/premios-mob.webp" alt="imagem dos prêmios"/>
+        <img class="awards-img" src="../assets/premios-mob.webp" alt="pratos, bowls e tábua prêmios da promoção"/>
       </picture>
     </div>
   </section>
