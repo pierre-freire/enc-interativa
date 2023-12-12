@@ -1,6 +1,6 @@
 <template>
   <div class="link-container">
-    <a class="link-container__button" href="/">{{label}}</a>
+    <a class="link-container__link" href="/" >{{label}}</a>
   </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
 	justify-content: center;
 }
 
-.link-container__button {
+.link-container__link {
   color: #074A75;
 	background-color: #FACC1f;
 	font-family: Brandon;

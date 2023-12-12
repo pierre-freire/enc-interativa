@@ -1,11 +1,11 @@
 <template>
   <section class="awards-list" id="awards_list">
-    <h2 class="title">COMPRE, JUNTE E TROQUE</h2>
+    <h2 class="title">compre, junte e troque</h2>
 
     <ul class="selector-container">
-      <li><button class="selector-button" :class="{ active: isActive('plates') }" @click="setActiveAward('plates')">PRATOS</button></li>
-      <li><button class="selector-button" :class="{ active: isActive('bowls') }" @click="setActiveAward('bowls')">BOWLS</button></li>
-      <li><button class="selector-button" :class="{ active: isActive('board') }" @click="setActiveAward('board')">TÁBUA</button></li>
+      <li><button class="selector-button" :class="{ active: isActive('plates') }" @click="setActiveAward('plates')">pratos</button></li>
+      <li><button class="selector-button" :class="{ active: isActive('bowls') }" @click="setActiveAward('bowls')">bowls</button></li>
+      <li><button class="selector-button" :class="{ active: isActive('board') }" @click="setActiveAward('board')">tábua</button></li>
     </ul>
 
     <ul class="galery">
@@ -24,7 +24,7 @@
       <li class="galery-item" :class="{ active: isActive('board') }">
         <picture>
           <source srcset="../assets/galeria-tabua.webp" media="(min-width: 640px)"/>
-          <img src="../assets/galeria-tabua-mob.webp" class="awards-img" alt="tábua de carne com deseno de quadra de basquete" loading="lazy" />
+          <img src="../assets/galeria-tabua-mob.webp" class="awards-img" alt="tábua de carne com desenho de quadra de basquete" loading="lazy" />
         </picture>
       </li>
     </ul>
@@ -75,15 +75,18 @@ export default {
   color: #facc1f;
   font-family: Brandon;
   margin-bottom: 24px;
+  text-transform: uppercase;
 }
 
 .selector-container {
   display: inline-flex;
+  text-transform: uppercase;
   justify-content: center;
   padding: 4px;
   background-color: #074A75;
   border-radius: 36px;
   gap: 8px;
+  margin-bottom: 36px;
 }
 
 .selector-button {

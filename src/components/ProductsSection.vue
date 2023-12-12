@@ -1,9 +1,9 @@
 <template>
   <section class="products-container" id="products">
     <div class="products">
-      <h2 class="title">PRODUTOS PARTICIPANTES</h2>
-      <p class="description">TODOS OS SQUEEZES DA LINHA HELLMANN'S</p>
-      <img class="products-img" src="../assets/produtos-home.webp" alt="potes de hellmans referentes a promoção" loading="lazy" />
+      <h2 class="title">produtos participantes</h2>
+      <p class="description">todos os squeezes da linha hellmann's</p>
+      <img class="products-img" src="../assets/produtos-home.webp" alt="potes de hellman's referentes à promoção" loading="lazy" />
     </div>
   </section>
 </template>
@@ -41,6 +41,10 @@ export default {
   background-image: url('../assets/bg-azul.webp');
 }
 
+.title,
+.description {
+  text-transform: uppercase;
+}
 .title {
   font-size: var(--big-title);
   font-family: Latino;

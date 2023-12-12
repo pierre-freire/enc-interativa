@@ -1,20 +1,20 @@
 <template>
   <footer class="footer">
     <div class="laco-container">
-      <img class="laco-logo" src="../assets/laco.webp" alt="logo da laco" loading="lazy" />
+      <img class="laco-logo" src="../assets/laco.webp" alt="logomarca da laco" loading="lazy" />
     </div>
     <div class="doubts-rules">
-      <a class="doubts" href="/">DÚVIDAS</a>
-      <a class="rules" href="/">REGULAMENTO</a>
+      <a class="doubts" href="/">dúvidas</a>
+      <a class="rules" href="/">regulamento</a>
     </div>
     <ul class="social-networks">
-      <li><img src="../assets/redes-twitter.webp" alt="logo do twitter" loading="lazy" /></li>
-      <li><img src="../assets/redes-facebook.webp" alt="logo do facebook" loading="lazy" /></li>
-      <li><img src="../assets/redes-instagram.webp" alt="logo do instagram" loading="lazy" /></li>
-      <li><img src="../assets/redes-yt.webp" alt="logo do youtube" loading="lazy" /></li>
+      <li><img src="../assets/redes-twitter.webp" alt="logomarca do twitter" loading="lazy" /></li>
+      <li><img src="../assets/redes-facebook.webp" alt="logomarca do facebook" loading="lazy" /></li>
+      <li><img src="../assets/redes-instagram.webp" alt="logomarca do instagram" loading="lazy" /></li>
+      <li><img src="../assets/redes-yt.webp" alt="logomarca do youtube" loading="lazy" /></li>
     </ul>
     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id dolor id turpis ultrices pharetra ac quis ligula. Mauris ut ante vel erat congue suscipit. In in aliquet enim, vitae tincidunt velit. Donec pellentesque commodo tincidunt. Pellentesque ut magna eget leo semper condimentum et volutpat nisi. Sed suscipit dui in nisl pretium, vitae egestas metus rhoncus. In</p>
-    <img src="../assets/logo-unilever.webp" alt="logo unilever" loading="lazy">
+    <img src="../assets/logo-unilever.webp" alt="logomarca unilever" loading="lazy">
   </footer>
 </template>
 
@@ -60,6 +60,7 @@ export default {
   margin: 24px 0;
   font-size: var(--big-text);
   flex-wrap: wrap;
+  text-transform: uppercase;
 }
 
 .doubts-rules > a {

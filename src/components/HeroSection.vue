@@ -1,11 +1,12 @@
 <template>
 	<section class="hero" id="hero">
 		<div class="hero-container">
-			<img class="pote de hellman's que representa a promoão " src="../assets/logo-promo.webp" alt="hellmans logo" />
+			<h1 class="title">hellmann's hora h da nba</h1>
+			<img class="pote de hellmann's que representa a promoção " src="../assets/logo-promo.webp" alt="logomarca da hellmann's" />
 			<div class="hero-container__right-container">
-				<img class="logo unilever-logo" src="../assets/logo-unilever.webp" alt="logo da unilever" />
+				<img class="logo unilever-logo" src="../assets/logo-unilever.webp" alt="logomarca da unilever" />
 				<LinkComponent label='PARTICIPE' />
-				<img class="logo products" src="../assets/produtos-home.webp" alt="pratos e bowls co escudos dos times e tábua com desenho de quadra de basquete" />
+				<img class="logo products" src="../assets/produtos-home.webp" alt="pratos e bowls com escudos dos times e tábua com desenho de quadra de basquete" />
 			</div>
 		</div>
 	</section>
@@ -37,6 +38,19 @@ import LinkComponent from './LinkComponent.vue';
 	grid-template-rows: 90px 180px 1fr;
 }
 
+.title {
+	position: absolute;
+	text-transform: uppercase;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
 .logo {
 	max-width: 100%;
 	align-self: end;
@@ -44,7 +58,7 @@ import LinkComponent from './LinkComponent.vue';
 
 .unilever-logo {
 	width: 90px;
-	justify-self: end;
+	justify-self: flex-end;
 	max-height: 100%;
 	object-fit: contain;
 }

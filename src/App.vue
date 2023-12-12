@@ -33,16 +33,6 @@ export default {
     ProductsSection,
     BuySection,
     FooterComponent
-  },
-  head: {
-    title:  {
-      inner: 'My title',
-      separator: '-',
-      complement: 'My Complement'
-    },
-    meta: [
-      { name: 'description', content: 'My description', id: 'desc' }
-    ]
   }
 }
 
@@ -102,6 +92,11 @@ table {
 @font-face {
     font-family: 'Brandon';
     src: url('~@/assets/fonts/BrandonGrotesqueBlack.otf');
+}
+
+@font-face {
+    font-family: 'Brandon Med';
+    src: url('~@/assets/fonts/Brandonmed.otf');
 }
 
 :root {

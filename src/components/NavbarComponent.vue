@@ -1,18 +1,18 @@
 <template>
   <nav class="navbar">
-    <button class="mobile-menu" :class="{ open: menuOpen }" @click="changeMenuOpen(!menuOpen)" aria-label="Menu">
+    <button class="mobile-menu" :class="{ open: menuOpen }" @click="changeMenuOpen(!menuOpen)" type="button" aria-label="Menu">
       <img class="mobile-menu--icon" src="../assets/menu-icon.webp" alt="icon do menu mobile" />
     </button>
     <ul class="list" :class="{ open: menuOpen }">
-      <li class="list-item"><a class="list-item__link" href="#hero">HOME</a></li>
-      <li class="list-item"><a class="list-item__link" href="#participate">COMO<br/>PARTICIPAR</a></li>
-      <li class="list-item"><a class="list-item__link" href="#awards_list">PRÊMIOS</a></li>
-      <li class="list-item"><a class="list-item__link" href="#products">PRODUTOS<br/>PARTICIPANTES</a></li>
-      <li class="list-item"><a class="list-item__link" href="/">RECEITAS</a></li>
-      <li class="list-item"><a class="list-item__link" href="/">PÍLULAS NBA</a></li>
-      <li class="list-item"><a class="list-item__link" href="/">GANHADORES</a></li>
+      <li class="list-item"><a class="list-item__link" href="#hero">home</a></li>
+      <li class="list-item"><a class="list-item__link" href="#participate">como participar</a></li>
+      <li class="list-item"><a class="list-item__link" href="#awards_list">prêmios</a></li>
+      <li class="list-item"><a class="list-item__link" href="#products">produtos participantes</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">receitas</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">pílulas nba</a></li>
+      <li class="list-item"><a class="list-item__link" href="/">ganhadores</a></li>
       <li class="list-item user">
-        <button class="list-item__button">OLÁ, ANA<span class="triangle"></span></button>
+        <button class="list-item__button" type="button">olá, ana<span class="triangle"></span></button>
         <ul class="user-info">
           <li class="info-link">Perfil</li>
           <li class="info-link">Cupons</li>
@@ -55,7 +55,7 @@ export default {
 .mobile-menu {
   background: none;
   border: none;
-  transform: rotate(0);
+  transform: rotate(180deg);
   transition: all 0.5s ease;
 }
 
@@ -89,6 +89,8 @@ export default {
 .list-item {
   display: flex;
   align-items: center;
+  text-transform: uppercase;
+  max-width: 180px;
   height: 100%;
 }
 
@@ -100,8 +102,8 @@ export default {
   box-sizing: border-box;
   color: #074A75;
   font-size: var(--big-text);
-  text-wrap: nowrap;
   text-decoration: none;
+  text-wrap: wrap;
 }
 
 .list-item__button {
@@ -117,6 +119,7 @@ export default {
   text-wrap: nowrap;
   text-decoration: none;
   font-family: Brandon;
+  text-transform: uppercase;
 }
 
 .list-item__link:hover,
@@ -133,13 +136,13 @@ export default {
   border-style: solid;
   border-width: 0 10px 15px 10px;
   border-color: transparent transparent #074A75 transparent;
-  transform: rotate(0deg);
+  transform: rotate(180deg);
   transition: transform 0.5s ease;
 }
 
 .list-item__button:hover .triangle {
   border-color: transparent transparent #FACC1f transparent;
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 .user {
@@ -160,7 +163,7 @@ export default {
 }
 
 .user:hover .triangle {
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 .user:hover .user-info{
@@ -187,7 +190,6 @@ export default {
   .list {
     flex-direction: row;
     justify-content: center;
-    max-width: 1600px;
     position: initial;
     background: none;
     transform: scaleY(1);

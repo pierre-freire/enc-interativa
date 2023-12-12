@@ -1,15 +1,14 @@
 <template>
   <section class="buy">
-    <h2 class="title">COMPRE AGORA E PARTICIPE</h2>
-
+    <h2 class="title">compre agora e participe</h2>
     <ul class="buy-list">
       <li class="buy-option">
-        <img class="buy-option__img" src="../assets/pda.webp" alt="logo do pão de açucar" loading="lazy" />
-        <a class="link" href="/">GPA</a>
+        <img class="buy-option__img" src="../assets/pda.webp" alt="logomarca do pão de açucar" loading="lazy" />
+        <a class="link" href="/">gpa</a>
       </li>
       <li class="buy-option">
-        <img class="buy-option__img" src="../assets/carrefour.webp" alt="logo do carrefour" loading="lazy" />
-        <a class="link" href="/">CARREFOUR</a>
+        <img class="buy-option__img" src="../assets/carrefour.webp" alt="logomarca do carrefour" loading="lazy" />
+        <a class="link" href="/">carrefour</a>
       </li>
     </ul>
   </section>
@@ -34,6 +33,7 @@ export default {
   border-bottom: 4px solid white;
   display: inline-block ;
   padding-bottom: 8px;
+  text-transform: uppercase;
 }
 
 .buy-list {
@@ -49,6 +49,7 @@ export default {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  text-transform: uppercase;
 }
 
 .buy-option__img {
